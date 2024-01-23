@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+    font-family: 微軟正黑體;
+}
+body {
+    background-image: url(image/test.jpg);
+	background-size: cover;
+    width: 100%;
+    height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.content h1 {
+    font-family: 微軟正黑體;
+    font-size: 75px;
+    text-indent: -20px;
+}
+.content h4 {
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.content .enter {
+    background-color: rgba(150,162,172,1.00);
+    border-radius: 10px;
+    border: 0.5px solid rgba(0,0,0,1.00);
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+}
